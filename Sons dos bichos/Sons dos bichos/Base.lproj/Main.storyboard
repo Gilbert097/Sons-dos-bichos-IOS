@@ -27,10 +27,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSI-Qa-3KD" userLabel="Dog Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="128.33333333333334" height="102"/>
                                                 <state key="normal" image="cao"/>
+                                                <connections>
+                                                    <action selector="dogButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ixU-kp-XJd"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUV-OF-VdH" userLabel="Cat Button">
                                                 <rect key="frame" x="128.33333333333331" y="0.0" width="134.66666666666669" height="102"/>
                                                 <state key="normal" image="gato"/>
+                                                <connections>
+                                                    <action selector="catButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S0M-95-hYJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -40,25 +46,35 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1U-bX-TGQ" userLabel="Lion Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="131.33333333333334" height="116"/>
                                                 <state key="normal" image="leao"/>
+                                                <connections>
+                                                    <action selector="lionButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I9V-bY-vsh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftn-dY-zfz" userLabel="Monkey Button">
                                                 <rect key="frame" x="131.33333333333331" y="0.0" width="131.66666666666669" height="116"/>
                                                 <state key="normal" image="macaco"/>
+                                                <connections>
+                                                    <action selector="monkeyButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DCp-sR-7EY"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Yyn-s5-Ea4" userLabel="Row Three Stack View">
                                         <rect key="frame" x="0.0" y="332" width="263" height="116"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqz-on-hKy">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xqz-on-hKy" userLabel="Sheep Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="131.33333333333334" height="116"/>
                                                 <state key="normal" image="ovelha"/>
-                                                <string key="userLabel">
-Sheep Button</string>
+                                                <connections>
+                                                    <action selector="sheepButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3YK-Qf-PAe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSC-eS-yhc" userLabel="Cow Button">
                                                 <rect key="frame" x="131.33333333333331" y="0.0" width="131.66666666666669" height="116"/>
                                                 <state key="normal" image="vaca"/>
+                                                <connections>
+                                                    <action selector="cowButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LNH-UQ-yT4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
