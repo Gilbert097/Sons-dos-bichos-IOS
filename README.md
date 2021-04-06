@@ -1,5 +1,5 @@
 # Sons-dos-bichos-IOS
-Décimo quinto app IOS do curso Desenvolvimento IOS 12 na Udemy, ministrado pelo professor Jamilton Damasceno. A ideia é ser um app infantil com o objetivo de executar os sons de alguns bichos.
+15º app IOS do curso Desenvolvimento IOS 12 na Udemy, ministrado pelo professor Jamilton Damasceno. A ideia é ser um app infantil com o objetivo de executar os sons de alguns bichos.
 
 No desenvolvimento desse app foi possível colocar em prática:
 - Adicionar e utilizar o framework AVFoundation.
